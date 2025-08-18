@@ -1,2 +1,2 @@
 # Student-Score-
-Student Score Prediction project 
+Student Performance Score Prediction project 

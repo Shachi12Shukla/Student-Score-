@@ -1,6 +1,18 @@
-# 📘 Student Score Prediction
+# Student Performance Score Prediction Project
+An ML-DS project to understand how the performance of a student depends on certain factors 
 
-This project predicts **student scores based on study hours** using a Linear Regression model. It includes data preprocessing, model training, evaluation, and a simple web application for predictions.
+### Dataset Link https://www.kaggle.com/datasets/spscientist/students-performance-in-exams
+
+## Dataset Details 
+- 1000 rows and 8 columns 
+- gender : sex of students  -> (Male/female)
+- race/ethnicity : ethnicity of students -> (Group A, B,C, D,E)
+- parental level of education : parents' final education ->(bachelor's degree,some college,master's degree,associate's degree,high school)
+- lunch : having lunch before test (standard or free/reduced) 
+- test preparation course : complete or not complete before test
+- math score
+- reading score
+- writing score
 
 ---
 
@@ -36,7 +48,7 @@ Student-Score-
 1. Clone the repository or extract the zip file.
 
 ```bash
-git clone <repo-url>
+git clone <https://github.com/Shachi12Shukla/Student-Score->
 cd Student-Score-
 ```
 
@@ -54,8 +66,6 @@ venv\Scripts\activate      # On Windows
 bash
 pip install -r requirements.txt
 ```
-
-
 
 ## ▶️ Running the Project
 
@@ -78,20 +88,18 @@ python webapp.py
 * **Mean Squared Error (MSE):** \~30.89
 * **Root Mean Squared Error (RMSE):** \~5.56
 
-The model performs well for a simple linear regression on study hours vs. scores.
-
 ---
 
 ## 🖼️ Visual Insights
 
-* `insights.png` – Correlation between study hours and scores
-* `insights2.png` – Regression line fit visualization
+* `insights.png` – Relation between test preparation course and average score & gender and average score
+* `insights2.png` – Relation between lunch and average score
 
 ---
 
 ## 📌 Tech Stack
 
-* **Python** (Pandas, NumPy, Scikit-learn, Matplotlib)
+* **Python** (Pandas, NumPy, Scikit-learn, Matplotlib and Seaborn)
 * **Streamlit** (for web app)
 * **Jupyter Notebook** (for training & analysis)
 

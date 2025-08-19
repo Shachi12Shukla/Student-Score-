@@ -92,7 +92,7 @@ The model performs well for a simple linear regression on study hours vs. scores
 ## 📌 Tech Stack
 
 * **Python** (Pandas, NumPy, Scikit-learn, Matplotlib)
-* **Flask/Streamlit** (for web app)
+* **Streamlit** (for web app)
 * **Jupyter Notebook** (for training & analysis)
 
 ---

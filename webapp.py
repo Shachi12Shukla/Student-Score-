@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
-import joblib
+import os
 
 # Load the trained model
-model = joblib.load("student_score_model.pkl")
+model = os.load("student_score_model.pkl")
 
 st.title("📊 Student Math Score Prediction App")
 

@@ -1,9 +1,10 @@
 import streamlit as st
 import pandas as pd
-import os
+import pickle
 
 # Load the trained model
-model = os.load("student_score_model.pkl")
+with open('student_score_model.pkl', 'rb') as f:
+    model = pickle.load(f)
 
 st.title("📊 Student Math Score Prediction App")
 

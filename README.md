@@ -1,5 +1,6 @@
 # Student Performance Score Prediction Project
-An ML-DS project to understand how the performance of a student depends on certain factors 
+An ML-DS project to understand how the performance of a student depends on certain factors. 
+App is deployed and hosted at - https://student-performance-score-prediction.streamlit.app/
 
 ### Dataset Link https://www.kaggle.com/datasets/spscientist/students-performance-in-exams
 

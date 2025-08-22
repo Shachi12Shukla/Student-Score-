@@ -42,8 +42,6 @@ Student-Score-
 │-- .git/                  # Git repository (if initialized)
 ```
 
----
-
 ## ⚙️ Installation & Setup
 
 1. Clone the repository or extract the zip file.
